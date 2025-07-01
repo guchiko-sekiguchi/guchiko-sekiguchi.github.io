@@ -1,0 +1,46 @@
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      # portfolio のビルド
+      - name: Install dependencies portfolio
+        run: npm install
+        working-directory: portfolio
+
+      - name: Build portfolio
+        run: npm run build
+        working-directory: portfolio
+
+      # site1 のビルド
+      - name: Install dependencies site1
+        run: npm install
+        working-directory: site1
+
+      - name: Build site1
+        run: npm run build
+        working-directory: site1
+
+      # site2 のビルド
+      - name: Install dependencies site2
+        run: npm install
+        working-directory: site2
+
+      - name: Build site2
+        run: npm run build
+        working-directory: site2
+
+      # まとめてデプロイ
+      - name: Deploy all sites
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./    # ルート直下にそれぞれ dist を配置しておく前提
+          destination_dir: ''  # ルートにまとめて公開
