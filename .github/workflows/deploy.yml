@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - main
-      
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -26,23 +26,23 @@ jobs:
         run: npm run build
         working-directory: portfolio
 
-      # site1 のビルド
-      - name: Install dependencies site1
-        run: npm install
-        working-directory: site1
+      # # site1 のビルド
+      # - name: Install dependencies site1
+      #   run: npm install
+      #   working-directory: site1
 
-      - name: Build site1
-        run: npm run build
-        working-directory: site1
+      # - name: Build site1
+      #   run: npm run build
+      #   working-directory: site1
 
-      # site2 のビルド
-      - name: Install dependencies site2
-        run: npm install
-        working-directory: site2
+      # # site2 のビルド
+      # - name: Install dependencies site2
+      #   run: npm install
+      #   working-directory: site2
 
-      - name: Build site2
-        run: npm run build
-        working-directory: site2
+      # - name: Build site2
+      #   run: npm run build
+      #   working-directory: site2
 
       # まとめてデプロイ
       - name: Deploy all sites
