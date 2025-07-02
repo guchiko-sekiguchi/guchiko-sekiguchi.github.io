@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".", // .をベースパスに設定
+    "paths": {
+      "@/*": [
+        "/src/*"
+      ] // @/はvuejs/frontend2/src/を指す
+    }
+  },
+  "include": [
+    "src/**/*"
+  ] // srcフォルダ内の全ファイルを含める
+}
