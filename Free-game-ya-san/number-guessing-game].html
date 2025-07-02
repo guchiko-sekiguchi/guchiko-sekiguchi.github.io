@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>数当てゲーム</title>
+    <link rel="stylesheet" href="css/number-guessing-game].css">
+</head>
+<body>
+
+    <header>
+        <div class="bg">
+            <h1><a href="index.html">フリーゲーム屋さん</a></h1>
+        </div>
+    </header>
+
+    <div class="main-leyout">
+        <aside>
+            <div class="window">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </aside>
+
+    <main>
+        <div class="contents-leyout">
+            <div class="contents">
+                <div class="kanban">
+                    <h2>数当てゲーム</h2>
+                </div>
+                <p>私が考えている数字は何でしょうか？<br>1～100の間で出題するよ！<br>↓に入力してね！</p>
+                
+                <div class="number-input-erea">
+                    <label>
+                        <input type="number" name="example"  min="0" max="100"class="number-input"  autofocus required pattern="[0-9]{3}">
+                    </label>
+
+                    <div class="btns">
+                        <button class="submit noneactive">提出する！</button>
+                        <button class="onemore">もう一回！</button>
+                    </div>
+                </div>
+                
+                <p><span class="number-of-times">0</span>回目の挑戦</p>
+                <p class="result">結果がここに表示されるよ！</p>
+                
+            </div>
+        </div>
+    </main>
+        <aside>
+            <div class="window">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </aside>
+    </div>
+        <footer>
+            <small>@2025free-game-ya-san</small>
+        </footer>
+
+    <script>
+
+
+    </script>
+    <script src="js/number-guessing-game.js"></script>
+</body>
+</html>
