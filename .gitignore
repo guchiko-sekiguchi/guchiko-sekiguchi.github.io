@@ -1,0 +1,15 @@
+# Node.js dependencies
+node_modules/
+
+# Vite or build cache
+dist/
+.vite/
+.cache/
+
+# Logs
+logs/
+*.log
+
+# OSやIDE固有ファイル
+.DS_Store
+Thumbs.db
