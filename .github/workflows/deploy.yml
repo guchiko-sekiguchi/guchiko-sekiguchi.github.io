@@ -23,31 +23,32 @@ jobs:
           npm install
           npm run build
 
-      - name: Build Free-game-ya-san
-        run: |
-          cd Free-game-ya-san
-          npm install
-          npm run build
-
       - name: Build Motion-Palette
         run: |
           cd Motion-Palette
           npm install
           npm run build
 
-      - name: Build Pixel-Art-App
-        run: |
-          cd Pixel-Art-App
-          npm install
-          npm run build
+      # - name: Build Free-game-ya-san
+      #   run: |
+      #     cd Free-game-ya-san
+      #     npm install
+      #     npm run build
+
+      # - name: Build Pixel-Art-App
+      #   run: |
+      #     cd Pixel-Art-App
+      #     npm install
+      #     npm run build
 
       - name: Prepare deploy directory
         run: |
           mkdir deploy
           cp -r portfolio/dist deploy/portfolio
-          cp -r other1/dist deploy/Free-game-ya-san
           cp -r other2/dist deploy/Motion-Palette
-          cp -r other3/dist deploy/Pixel-Art-App
+
+      # cp -r other1/dist deploy/Free-game-ya-san
+      # cp -r other3/dist deploy/Pixel-Art-App
 
       - name: Deploy all sites
         uses: peaceiris/actions-gh-pages@v3
