@@ -17,18 +17,41 @@ jobs:
         with:
           node-version: '18'
 
-      # portfolio のビルド
-      - name: Install dependencies portfolio
-        run: npm install
-        working-directory: portfolio
-
       - name: Build portfolio
-        run: npm run build
-        working-directory: portfolio
+        run: |
+          cd portfolio
+          npm install
+          npm run build
 
-      - name: Deploy to GitHub Pages
+      - name: Build Free-game-ya-san
+        run: |
+          cd Free-game-ya-san
+          npm install
+          npm run build
+
+      - name: Build Motion-Palette
+        run: |
+          cd Motion-Palette
+          npm install
+          npm run build
+
+      - name: Build Pixel-Art-App
+        run: |
+          cd Pixel-Art-App
+          npm install
+          npm run build
+
+      - name: Prepare deploy directory
+        run: |
+          mkdir deploy
+          cp -r portfolio/dist deploy/portfolio
+          cp -r other1/dist deploy/Free-game-ya-san
+          cp -r other2/dist deploy/Motion-Palette
+          cp -r other3/dist deploy/Pixel-Art-App
+
+      - name: Deploy all sites
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./portfolio/dist
-          destination_dir: portfolio
+          publish_dir: ./deploy
+          publish_branch: gh-pages
