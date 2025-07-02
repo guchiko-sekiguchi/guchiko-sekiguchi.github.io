@@ -9,9 +9,21 @@
       <p><strong>使用技術：</strong>HTML、CSS、JavaScript、Vue</p>
       <p><strong>機能実装：</strong><br>レスポンシブ、Vueコンポーネント、キーフレームアニメーションなど</p>
     </div>
+    <div class="site-seeing">
+      <a
+        href="https://example.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="visit-link"
+      >
+        サイトを見る
+      </a>
+    </div>
 
     <div class="work-video">
-      <img src="/src/assets/port-folio-site.png" alt="ポートフォリオサイト" />
+      <a href="https://guchiko-sekiguchi.github.io/portfolio/" target="_blank" rel="noopener noreferrer">
+        <img src="/src/assets/port-folio-site.png" alt="ポートフォリオサイト" />
+      </a>
       <!-- <video
         src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm"
         controls
@@ -24,7 +36,7 @@
 
     <div class="detail">
       <p><strong>概要：</strong></p>
-      <p>背景やテキストをhoverした際などアニメーションを多く使っています。画面のデザインをこだわりました。チャットGPTと打合せをし構成を考え、コードの下書きを書いてもらい、修正する形で作成いたしました。背景のアニメーションは自分の言葉でイメージを伝え、想像通りのものを作成してもらうことが出来ました。</p>
+      <p>ポートフォリオサイトの公開を目的として作成したサイトです。構成や実装はChatGPTと相談しながら進め、コードの下書きをもとに自分で調整・仕上げまし、見た目と見やすさのバランスを意識して制作しました。<br>背景やテキストにホバーした際の動きなど、画面全体にアニメーションを多く取り入れ、デザインにこだわって制作しました。また、背景アニメーションについては、言葉で丁寧にイメージを伝えることで、希望通りの動きを実現できました。<br>サイトの公開はGitHub Pagesを使用し、エラー対応や設定作業も自力で行いました。</p>
     </div>
   </div>
 
@@ -38,19 +50,26 @@
       <p><strong>機能実装：</strong><br>Vueコンポーネント、キーフレームアニメーションなど</p>
     </div>
 
+    <div class="site-seeing">
+      <a
+        href="https://example.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="visit-link"
+      >
+        サイトを見る
+      </a>
+    </div>
+
     <div class="work-video">
-      <video
-        src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm"
-        controls
-        muted
-        width="100%"
-        >
-        お使いのブラウザは動画タグに対応していません。他のブラウザでご覧ください。
-      </video>
+      <a href="https://guchiko-sekiguchi.github.io/Motion-Palette/" target="_blank" rel="noopener noreferrer">
+        <img src="/src/assets/Motion-Palette.png" alt="CSSアニメーションサンプルサイト" />
+      </a>
     </div>
 
     <div class="detail">
-      <p><strong>概要：</strong><br>CSSで出来るアニメーションのサンプルサイトのようなものを作成しました。グラデーションでおしゃれな印象の統一感のあるデザインのサイトにしました。</p>
+      <p><strong>概要：</strong></p>
+      <p>CSSアニメーションの学習を目的に制作したサイトです。四角いオブジェクトのアニメーションはキーフレームを使って自然なループになるよう調整しました。<br>2画面ではございますが、Vueを用いてコンポーネントごとに整理しています。また、画面サイズに応じて表示内容が変化するようレスポンシブ対応も行っております。サイト全体のデザインはグラデーションを使用し、色数を抑え統一感を出しました。</p>
     </div>
   </div>
 
@@ -64,19 +83,26 @@
       <p><strong>機能実装：</strong><br>Vueコンポーネント、キーフレームアニメーションなど</p>
     </div>
 
+    <div class="site-seeing">
+      <a
+        href="https://example.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="visit-link"
+      >
+        サイトを見る
+      </a>
+    </div>
+
     <div class="work-video">
-      <video
-        src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm"
-        controls
-        muted
-        width="100%"
-        >
-        お使いのブラウザは動画タグに対応していません。他のブラウザでご覧ください。
-      </video>
+      <a href="https://guchiko-sekiguchi.github.io/Pixel-Art-App/" target="_blank" rel="noopener noreferrer">
+        <img src="/src/assets/Pixel-Art-App.png" alt="ドット絵のお絵描きアプリ" />
+      </a>
     </div>
 
     <div class="detail">
-      <p><strong>概要：</strong><br>最低限の機能を実装したドット絵のお絵描きアプリです。改修を想定してドットのサイズなど変数で管理しています。今後はキャンバスサイズ変更に加え、レイヤー機能など様々な機能を追加したいと思っています。</p>
+      <p><strong>概要：</strong></p>
+      <p>canvasの描画練習として、ドット絵のお絵描きアプリを制作しました。ペンと消しゴムの切り替え、パレットでの色変更、キャンバスのクリア、PNG画像の書き出しといった、基本的な機能を短期間で実装しています。<br>グリッドの描画で発生した再描画の不具合は、CSSへの切り替えとJavaScriptによる変数連携で解決しました。コードは改修のしやすさを意識して、サイズや色を変数で管理しています。<br>最低限の機能にとどまっているため、今後はレイヤー機能や保存機能などの追加にも取り組んでいきたいと考えています。</p>
     </div>
   </div>
 
@@ -87,22 +113,29 @@
       <p><strong>画面数　：</strong>5（トップページ1、ミニゲーム4）</p>
       <p><strong>制作期間：</strong>約5日</p>
       <p><strong>使用技術：</strong>HTML、CSS、JavaScript、Vue</p>
-      <p><strong>機能実装：</strong><br>Vueコンポーネント、キーフレームアニメーションなど</p>
+      <p><strong>機能実装：</strong><br>キーフレームアニメーションなど</p>
+    </div>
+
+    <div class="site-seeing">
+      <a
+        href="https://example.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="visit-link"
+      >
+        サイトを見る
+      </a>
     </div>
 
     <div class="work-video">
-      <video
-        src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm"
-        controls
-        muted
-        width="100%"
-        >
-        お使いのブラウザは動画タグに対応していません。他のブラウザでご覧ください。
-      </video>
+      <a href="https://guchiko-sekiguchi.github.io/Free-game-ya-san/" target="_blank" rel="noopener noreferrer">
+        <img src="/src/assets/Free-game-ya-san.png" alt="フリーゲームサイト" />
+      </a>
     </div>
 
     <div class="detail">
-      <p><strong>概要：</strong><br>JavaScriptの学習で、じゃんけんゲーム、数字当てゲーム、５秒連打ゲーム、ブロック移動ゲームを作成いたしました。</p>
+      <p><strong>概要：</strong></p>
+      <p>JavaScriptの学習の一環として、簡単なミニゲームを複数制作し、掲載したたサイトです。じゃんけんや数字当てなど、ルールがシンプルなゲームを中心に4種類を実装しました。<br>ゲームのアイデアはChatGPTとのやり取りで整理し、コードはヒントを参考にしながら自力で組み立てました。JavaScriptで本格的にロジックを書くのは初めてでしたが、試行錯誤を通じて基本的な構文や処理の流れに慣れることができました。今後デザイン面やボタン操作などの改善に取り組み、より使いやすく見やすい形にブラッシュアップする予定です。</p>
     </div>
   </div>
 
@@ -110,6 +143,51 @@
 </template>
 
 <style>
+.site-seeing{
+  grid-area: link;
+  padding: 0.5rem;
+  line-height: 1.5;  
+  border-radius: 8px;
+  display: flex;
+}
+
+.site-seeing .visit-link {
+  margin-left: auto;
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #007ACC; /* 落ち着いた青系、Vueのイメージにも合う */
+  text-decoration: none;
+  position: relative;
+  transition: color 0.2s ease;
+}
+
+.work-item:nth-of-type(even) .visit-link {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.visit-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 1px;
+  background: #007ACC;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+.visit-link:hover {
+  color: #005f99;
+}
+
+.visit-link:hover::after {
+  transform: scaleX(1);
+}
+
 
 .works-list {
   gap: 40px;
@@ -121,6 +199,7 @@
   grid-template-areas:
     "title title"
     "desc video"
+    "link video"
     "detail detail";
   grid-template-columns: 1fr 1fr ;
   gap: 20px 40px;
@@ -133,6 +212,7 @@
   grid-template-areas:
     "title title"
     "video desc"
+    "video link"
     "detail detail";
     grid-template-columns: 1fr 1fr;
 }
@@ -165,26 +245,31 @@
 
 .work-video {
   grid-area: video;
+  width: 100%;             /* 親幅いっぱい（レスポンシブ） */
+  aspect-ratio: 16 / 9;    /* ← 16:9比率を維持！ */
+  overflow: hidden;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
 }
 
 .work-video img{
-  width: 100%;
-  height: auto;
   max-width: 100%;
-  border-radius: 8px;
   display: block; /* ブラウザの余白を抑える */
-  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;  /* これがポイント！ */
+  object-position: top; /* 画像の中心を優先して切り取る（任意） */
 }
 
-.work-video video {
+/* .work-video video {
   width: 100%;
   height: auto;
   max-width: 100%;
   border-radius: 8px;
-  display: block; /* ブラウザの余白を抑える */
+  display: block;
   box-shadow: inset;
-  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
-}
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+} */
 
 .detail {
   grid-area: detail;
@@ -200,6 +285,7 @@
     grid-template-areas:
       "title"
       "video"
+      "link"
       "desc"
       "detail";
     grid-template-columns: 1fr;
@@ -208,6 +294,7 @@
     grid-template-areas:
       "title"
       "video"
+      "link"
       "desc"
       "detail";
     grid-template-columns: 1fr;
@@ -217,6 +304,20 @@
     width: 100%;
     max-width: 100%;
   }
+
+  .site-seeing{
+    justify-content: center;
+  }
+
+  .site-seeing .visit-link {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.work-item:nth-of-type(even) .visit-link {
+  margin-left: auto;
+  margin-right: auto;
+}
   
 }
 
