@@ -1,0 +1,84 @@
+.side-area {
+  /* position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden; */
+}
+
+.menu-board {
+  background: #f0c2db;
+  border: 8px double #ffffff;
+  border-radius: 10px;
+  color: #fdf5e6;
+}
+
+.menu-top{
+  background: white;
+}
+
+.menu-title,
+.sub-title
+{
+    font-family: 'Georgia', serif;
+  text-align: center;
+  color: #ddbc00;
+  letter-spacing: 1px;
+}
+
+.menu-title {
+  font-size: 1.6rem;
+  padding: 2rem 0 0;
+  letter-spacing:3px;
+}
+.menu-title a{
+  text-decoration: none;
+  color: #ddbc00;
+}
+
+.sub-title{
+  width: 100%;
+  padding: 0 0 1rem;
+  font-size: 0.8rem;
+  margin: 0;
+}
+
+.game-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+
+.game-list li {
+  height: 2rem;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.game-list a {
+  display: inline-block;
+  padding: 0.2rem 0.5rem;
+  font-size: 1.1rem;
+  color: #4b3832;
+  font-weight: bold;
+  text-decoration: none;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.game-list a::after {
+  content: '';
+  display: block;
+  height: 3px;
+  width: 0%;
+  background-color: #E63995;
+  transition: width 0.3s ease;
+  margin-top: 2px;
+}
+
+
+.game-list a:hover::after {
+  width: 100%;
+}

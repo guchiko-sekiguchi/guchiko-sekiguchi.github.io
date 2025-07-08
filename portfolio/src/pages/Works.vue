@@ -118,7 +118,7 @@
 
     <div class="site-seeing">
       <a
-        href="https://guchiko-sekiguchi.github.io/Pixel-Art-App/"
+        href="https://guchiko-sekiguchi.github.io/Free-game-ya-san/"
         target="_blank"
         rel="noopener noreferrer"
         class="visit-link"
