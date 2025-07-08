@@ -11,7 +11,7 @@
     </div>
     <div class="site-seeing">
       <a
-        href="https://guchiko-sekiguchi.github.io/portfolio/"
+        href="https://s-k-g-c.github.io/portfolio/"
         target="_blank"
         rel="noopener noreferrer"
         class="visit-link"
@@ -21,7 +21,7 @@
     </div>
 
     <div class="work-video">
-      <a href="https://guchiko-sekiguchi.github.io/portfolio/" target="_blank" rel="noopener noreferrer">
+      <a href="https://s-k-g-c.github.io/portfolio/" target="_blank" rel="noopener noreferrer">
         <img src="/src/assets/port-folio-site.png" alt="ポートフォリオサイト" />
       </a>
       <!-- <video
@@ -52,7 +52,7 @@
 
     <div class="site-seeing">
       <a
-        href="https://guchiko-sekiguchi.github.io/Motion-Palette/"
+        href="https://s-k-g-c.github.io/Motion-Palette/"
         target="_blank"
         rel="noopener noreferrer"
         class="visit-link"
@@ -62,7 +62,7 @@
     </div>
 
     <div class="work-video">
-      <a href="https://guchiko-sekiguchi.github.io/Motion-Palette/" target="_blank" rel="noopener noreferrer">
+      <a href="https://s-k-g-c.github.io/Motion-Palette/" target="_blank" rel="noopener noreferrer">
         <img src="/src/assets/Motion-Palette.png" alt="CSSアニメーションサンプルサイト" />
       </a>
     </div>
@@ -85,7 +85,7 @@
 
     <div class="site-seeing">
       <a
-        href="https://guchiko-sekiguchi.github.io/Pixel-Art-App/"
+        href="https://s-k-g-c.github.io/Pixel-Art-App/"
         target="_blank"
         rel="noopener noreferrer"
         class="visit-link"
@@ -95,7 +95,7 @@
     </div>
 
     <div class="work-video">
-      <a href="https://guchiko-sekiguchi.github.io/Pixel-Art-App/" target="_blank" rel="noopener noreferrer">
+      <a href="https://s-k-g-c.github.io/Pixel-Art-App/" target="_blank" rel="noopener noreferrer">
         <img src="/src/assets/Pixel-Art-App.png" alt="ドット絵のお絵描きアプリ" />
       </a>
     </div>
@@ -118,7 +118,7 @@
 
     <div class="site-seeing">
       <a
-        href="https://guchiko-sekiguchi.github.io/Free-game-ya-san/"
+        href="https://s-k-g-c.github.io/Free-game-ya-san/"
         target="_blank"
         rel="noopener noreferrer"
         class="visit-link"
@@ -128,7 +128,7 @@
     </div>
 
     <div class="work-video">
-      <a href="https://guchiko-sekiguchi.github.io/Free-game-ya-san/" target="_blank" rel="noopener noreferrer">
+      <a href="https://s-k-g-c.github.io/Free-game-ya-san/" target="_blank" rel="noopener noreferrer">
         <img src="/src/assets/Free-game-ya-san.png" alt="フリーゲームサイト" />
       </a>
     </div>
