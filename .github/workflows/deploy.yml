@@ -27,7 +27,8 @@ jobs:
         run: |
           cd Motion-Palette
           npm install
-          npx vite build
+          chmod +x ./node_modules/.bin/vite
+          ./node_modules/.bin/vite build
 
       - name: Build Free-game-ya-san
         run: |
