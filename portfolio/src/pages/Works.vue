@@ -11,7 +11,7 @@
     </div>
     <div class="site-seeing">
       <a
-        href="https://example.com"
+        href="https://guchiko-sekiguchi.github.io/portfolio/"
         target="_blank"
         rel="noopener noreferrer"
         class="visit-link"
@@ -52,7 +52,7 @@
 
     <div class="site-seeing">
       <a
-        href="https://guchiko-sekiguchi.github.io/portfolio/"
+        href="https://guchiko-sekiguchi.github.io/Motion-Palette/"
         target="_blank"
         rel="noopener noreferrer"
         class="visit-link"
@@ -85,7 +85,7 @@
 
     <div class="site-seeing">
       <a
-        href="https://guchiko-sekiguchi.github.io/Motion-Palette/"
+        href="https://guchiko-sekiguchi.github.io/Pixel-Art-App/"
         target="_blank"
         rel="noopener noreferrer"
         class="visit-link"
