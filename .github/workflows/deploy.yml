@@ -15,7 +15,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '18'
+          node-version: '20.19.0'
 
       - name: Build portfolio
         run: |
@@ -36,17 +36,14 @@ jobs:
           npm install
           ./node_modules/.bin/vite build
 
-      - name: Copy Pixel-Art-App
-        run: |
-          mkdir -p deploy/Pixel-Art-App
-          cp -r Pixel-Art-App/* deploy/Pixel-Art-App/
-
       - name: Prepare deploy directory
         run: |
           mkdir deploy
           cp -r portfolio/dist deploy/portfolio
           cp -r Motion-Palette/dist deploy/Motion-Palette
           cp -r Free-game-ya-san/dist deploy/Free-game-ya-san
+          mkdir -p deploy/Pixel-Art-App
+          cp -r Pixel-Art-App/* deploy/Pixel-Art-App/
 
       - name: Deploy all sites
         uses: peaceiris/actions-gh-pages@v3
