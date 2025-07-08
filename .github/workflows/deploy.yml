@@ -27,28 +27,25 @@ jobs:
         run: |
           cd Motion-Palette
           npm install
-          chmod +x ./node_modules/.bin/vite
           ./node_modules/.bin/vite build
 
-      # - name: Build Free-game-ya-san
-      #   run: |
-      #     cd Free-game-ya-san
-      #     npm install
-      #     ./node_modules/.bin/vite build
+      - name: Build Free-game-ya-san
+        run: |
+          cd Free-game-ya-san
+          npm install
+          ./node_modules/.bin/vite build
 
-      # - name: Build Pixel-Art-App
-      #   run: |
-      #     cd Pixel-Art-App
-      #     npm install
-      #     ./node_modules/.bin/vite build
+      - name: Copy Pixel-Art-App
+        run: |
+          mkdir -p deploy/Pixel-Art-App
+          cp -r Pixel-Art-App/* deploy/Pixel-Art-App/
 
       - name: Prepare deploy directory
         run: |
           mkdir deploy
           cp -r portfolio/dist deploy/portfolio
           cp -r Motion-Palette/dist deploy/Motion-Palette
-          # cp -r Free-game-ya-san/dist deploy/Free-game-ya-san
-          # cp -r Pixel-Art-App/dist deploy/Pixel-Art-App
+          cp -r Free-game-ya-san/dist deploy/Free-game-ya-san
 
       - name: Deploy all sites
         uses: peaceiris/actions-gh-pages@v3
